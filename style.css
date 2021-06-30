@@ -76,7 +76,7 @@ li, a {
 
 .main-text {
     text-align: center;
-    
+
 }
 
 
@@ -97,7 +97,13 @@ li, a {
 }
 
 .Card {
-    width: 50%;
+    width: 48.5%;
+    background-color: rgb(146, 131, 131);
+    padding: 10px;
+}
+
+#cardSpacer {
+    width: 3%;
 }
 
 
