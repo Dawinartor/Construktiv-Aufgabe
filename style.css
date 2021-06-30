@@ -56,7 +56,27 @@ li, a {
 
 .Links {
     font-weight: bolder;
+}
 
+
+#highlights {
+    background-color: #beb2b2cc;
+    height: 15%;
+    width: 100%;
+}
+
+#highlights {
+    padding-top: 2.5%;
+    text-align: left;
+}
+
+#main-content {
+    background-color: aqua;
+}
+
+.main-text {
+    text-align: center;
+    
 }
 
 
