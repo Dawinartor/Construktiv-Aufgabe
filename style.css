@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    display: flex;
+}
+
+.Page-Spacer {
+    width: 20%;
+    height: 100%;
+    background-color: aqua;;
+}
+
+.Main-Page {
+    width: 60%;
+    height: auto;
+    background-color: rgb(240, 211, 173);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CardBox {
+    display: flex;
+}
+
+.Card {
+    width: 50%;
+}
+
+
+
+
+
+
+
+#footer {
+    text-align: center;
+    background-color: black;
+    color: #FFF;
+}
