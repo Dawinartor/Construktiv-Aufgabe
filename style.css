@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    
 }
 
 body {
@@ -122,6 +122,10 @@ li, a {
     width: 5%;
 }
 
+#mainSpaceFoot {
+    width: 100%;
+    height: 10px;
+}
 
 
 #footer {
@@ -131,8 +135,12 @@ li, a {
     height: 5%;
 }
 
-#footer > p {
-    padding-top: 2.5%;
+.FooterSpacer {
+    height: 33%;
+}
+
+#copyright {
+    height: 34%;
 }
 
 
