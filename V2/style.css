@@ -70,6 +70,11 @@ body {
     font-size: smaller;
 }
 
+/* 
+Konfigurire Kartenboxen 
+TODO: 1. Kontent in die Mitte
+      2. Buttons
+*/
 
 .CardBox {
     margin: 20px 100px 20px 100px;
@@ -85,8 +90,13 @@ body {
 
 #card1 {
     margin: 0 3% 0 0;
-
 }
+
+#card1 > p {
+    margin: 0 15px 20px 15px;
+    font-size: smaller;
+}
+
 
 
 
