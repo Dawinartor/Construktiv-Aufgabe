@@ -1,0 +1,31 @@
+body {
+    margin: 0%;
+    font-family: Helvetica, sans-serif, Arial;
+    width: 100%;
+}
+
+#header {
+    padding: 0;
+    margin: 50px 100px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar-sign {
+
+}
+
+#highlight {
+    height: 150px;
+    margin: 0 0 0 0;
+    background-color: bisque;
+    text-align: left;
+    line-height: 150px;
+    padding-left: 100px;
+}
+
+#highlight > h1 {
+    padding-left: 0px;
+}
+
