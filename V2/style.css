@@ -22,7 +22,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFF;
 }
 
 #navbar > li, a {
@@ -32,6 +31,11 @@ body {
     display: block;
     color: black;
     text-decoration: none;
+}
+
+/* hover animation for navbar */
+#navbar > li:hover {
+    border-top: 1px solid black;
 }
 
 #highlight {
@@ -46,4 +50,43 @@ body {
 #highlight > h1 {
     margin: 0;
 }
+
+.main-content {
+    background-color: antiquewhite;
+}
+
+#main-text {
+    margin: 0px 100px 0 100px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#main-text > h3 {
+    margin-top: 50px;
+    font-size: larger;
+}
+
+#main-text > p {
+    font-size: smaller;
+}
+
+
+.CardBox {
+    margin: 20px 100px 20px 100px;
+    display: flex;
+}
+
+.Card {
+    width: 50%;
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#card1 {
+    margin: 0 3% 0 0;
+
+}
+
+
 
