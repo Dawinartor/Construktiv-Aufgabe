@@ -24,6 +24,11 @@ body {
     overflow: hidden;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
 #navbar > li, a {
     padding: 6px;
     padding-left: 0;
