@@ -5,6 +5,8 @@ window.onscroll = function() { stickyNavbar() };
 TODO Kann Elemente nicht im Script auswählen, 
      weil DOM noch nicht geladen ist.
      Wie komme ich an die Elemente ran?
+
+     -> Schoeneren Weg als das Script ans Ende des Bodys zu setzen.
 */
 
 // nehme navbar als Element
