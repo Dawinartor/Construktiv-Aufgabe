@@ -35,7 +35,10 @@ body {
 
 /* hover animation for navbar */
 #navbar > li:hover {
-    border-top: 1px solid black;
+    border-top: 5px solid black;
+
+    /* TODO: Wie bekomme ich die werweiterung des Divs unsichtbar? */
+    box-sizing: content-box; 
 }
 
 #highlight {
@@ -115,6 +118,7 @@ body {
 }
 
 .BigInput::placeholder {
+/* TODO: Wie kann die Input-Spalte positioniert werden? (Nicht der Placeholder) */
     position: relative;
     bottom: 20px;
 }
