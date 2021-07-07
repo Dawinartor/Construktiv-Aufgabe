@@ -35,10 +35,9 @@ body {
 
 /* hover animation for navbar */
 #navbar > li:hover {
-    border-top: 5px solid black;
-
+    padding-top: 5px;
+    border-top: 1px solid black;
     /* TODO: Wie bekomme ich die werweiterung des Divs unsichtbar? */
-    box-sizing: content-box; 
 }
 
 #highlight {
