@@ -51,14 +51,10 @@ body {
     margin: 0;
 }
 
-.main-content {
-    background-color: antiquewhite;
-}
 
 #main-text {
     margin: 0px 100px 0 100px;
     text-align: center;
-    background-color: aquamarine;
 }
 
 #main-text > h3 {
@@ -82,6 +78,7 @@ TODO: 1. Kontent in die Mitte
 }
 
 .Card {
+    height: 300px;
     width: 50%;
     background-color: black;
     color: #FFFFFF;
@@ -97,6 +94,14 @@ TODO: 1. Kontent in die Mitte
     font-size: smaller;
 }
 
+
+#copyright {
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: x-small;
+    padding: 5px 0;
+}
 
 
 
