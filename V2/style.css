@@ -66,15 +66,9 @@ body {
     font-size: smaller;
 }
 
-/* 
-Konfigurire Kartenboxen 
-TODO: 1. Kontent in die Mitte
-      2. Buttons
-*/
-
 
 .CardBox {
-    margin: 20px 100px 20px 100px;
+    margin: 60px 100px 20px 100px;
     display: flex;
 }
 
@@ -111,7 +105,7 @@ TODO: 1. Kontent in die Mitte
 }
 
 .BigInput {
-    height: 100px;
+    height: 80px;
     width: 80%;
     border: none;
     background-color: black;
@@ -120,10 +114,14 @@ TODO: 1. Kontent in die Mitte
     margin-bottom: 25px;
 }
 
+.BigInput::placeholder {
+    position: relative;
+    bottom: 20px;
+}
+
 ::placeholder {
     color: #F1F1F1;
     padding: 5px;
-    line-height: 5%;
 }
 
 #card1 {
@@ -133,11 +131,6 @@ TODO: 1. Kontent in die Mitte
 #card1 > p {
     margin: 0 15px 20px 15px;
     font-size: smaller;
-}
-
-
-#card2  {
-    
 }
 
 
